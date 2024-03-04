@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <section id="menu">
+        <div class="logo">
+            <img src="/images/CAMP PNG.png" alt="">
+            <h2>MySkul</h2>
+        </div>
+        <div class="menuItems">
+            <li><i class="ri-pie-chart-fill"></i> <a href="#">Dashboard</a></li>
+            <li id="viewStudents"><i class="ri-pie-chart-fill" aria-hidden="true"></i> <a href="#">View Students</a>
+                <!-- <ul id="viewStudentCont."><li><a href="#"> Entrance Students</a></li>
+                    <li><a href="#"> Nursery One</a></li>
+                    <li><a href="#"> Nursery Two</a></li>
+                    <li><a href="#"> Nursery Three</a></li>
+                    <li><a href="#"> Primary One</a></li>
+                    <li><a href="#"> Primary Two</a></li>
+                    <li><a href="#"> Primary Three</a></li>
+                    <li><a href="#"> Primary Four</a></li>
+                    <li><a href="#"> Primary Five</a></li>
+                    <li><a href="#"> Primary Six</a></li>
+                    <li><a href="#"> JSS 1</a></li>
+                    <li><a href="#"> JSS 2 </a></li>
+                    <li><a href="#"> JSS 3</a></li>
+                    <li><a href="#"> SS 1</a></li>
+                    <li><a href="#"> SS 2</a></li>
+                    <li><a href="#"> SS 3</a></li>
+                
+                </ul> -->
+            
+            </li>
+            <li><i class="ri-pie-chart-fill" aria-hidden="true"></i> <a href="#">Register Student</a></li>
+            <li><i class="ri-pie-chart-fill" aria-hidden="true"></i> <a href="#">List of Subjects</a></li>
+            <li><i class="ri-pie-chart-fill" aria-hidden="true"></i> <a href="#">Add Subjects</a></li>
+            <li><i class="ri-pie-chart-fill" aria-hidden="true"></i> <a href="#">Get Student Spreadsheet</a></li>
+            <li><i class="ri-pie-chart-fill" aria-hidden="true"></i> <a href="#">Result Uplaod</a>
+            
+            </li>
+            <li><i class="ri-pie-chart-fill" aria-hidden="true"></i> <a href="#">Set Resumption Date</a></li>
+            <li><i class="ri-pie-chart-fill" aria-hidden="true"></i> <a href="#">Register Entrance Student</a></li>
+            <li><i class="ri-pie-chart-fill" aria-hidden="true"></i> <a href="#">View All Students</a></li>
+            <li><i class="ri-pie-chart-fill" aria-hidden="true"></i> <a href="#">View All Entrance Students</a></li>
+            <li><i class="ri-pie-chart-fill" aria-hidden="true"></i> <a href="#">Get Entrance Spreadsheet</a></li>
+            <li><i class="ri-pie-chart-fill" aria-hidden="true"></i> <a href="#">Entrance Result Upload</a></li>
+            <li><i class="ri-pie-chart-fill" aria-hidden="true"></i> <a href="#">Change Password</a></li>
+            <li><i class="ri-pie-chart-fill" aria-hidden="true"></i> <a href="#">Logout</a></li>
+        </div>
+    </section>
+
+    <section id="interface">
+        <div class="navigation">
+            <div class="n1">
+                <div>
+                    <i id="menu-btn" class="ri-list-unordered"></i>
+                </div>
+                <div class="search">
+                    <i class="ri-search-line"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+
+            <div class="profile">
+                <i class="ri-notification-4-line"></i>
+                <img src="/images/CAMP PNG.png" alt="">
+            </div>
+        </div>
+
+        <h3 class="i-name">
+            Dashboard
+        </h3>
+
+        <div class="values">
+            <div class="val-box">
+                <i class="ri-home-4-line"></i>
+                <div>
+                    <h3>50</h3>
+                    <span>Registered Schools.</span>
+                </div>
+
+            </div>
+
+            <div class="val-box">
+                <i class="ri-team-line"></i>
+                <div>
+                    <h3>28,456</h3>
+                    <span>Registered Students</span>
+                </div>
+
+            </div>
+
+            <div class="val-box">
+                <i class="ri-book-open-line"></i>
+                <div>
+                    <h3>21</h3>
+                    <span>Number of Subjects</span>
+                </div>
+
+            </div>
+
+            <div class="val-box">
+                <i class="ri-macbook-line"></i>
+                <div>
+                    <h3>43,464</h3>
+                    <span>Number of eteyeyu</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="board">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Name/Reg. No</td>
+                        <!-- <td>Reg. Number</td> -->
+                        <td>Present Level</td>
+                        <td>Guaidian Number</td>
+                        <td>Block Student</td>
+                        <!-- <td>Block Student</td> -->
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="people">
+                            <img src="/images/resultCheck2.jpg" alt="">
+                            <div class="people-de">
+                                <h5>Kenneth Arinze Ebenyi</h5>
+                                <p>24/GTC/0012</p>
+
+                            </div>
+                        </td>
+
+                        <td class="people-des">
+                            <h5>Primary Six</h5>
+                            <p>Present Level</p>
+                        </td>
+
+                        <td class="people-phone">
+                            <h5>081 345 546 11</h5>
+                            <p>Guaidain Phone</p>
+                        </td>
+
+                        <td class="active">
+                            <p>Block Student</p>
+                       </td>
+ 
+                       <td class="edit">
+                        <p style="color: #18d26e !important;">Active</p>
+                   </td>
+                       
+
+                     
+                   </tr>
+
+                   <tr>
+                    <td class="people">
+                        <img src="/images/resultCheck2.jpg" alt="">
+                        <div class="people-de">
+                            <h5>Kenneth Arinze Ebenyi</h5>
+                            <p>24/GTC/0012</p>
+
+                        </div>
+                    </td>
+
+                    <td class="people-des">
+                        <h5>Primary Six</h5>
+                        <p>Present Level</p>
+                    </td>
+
+                    <td class="people-phone">
+                        <h5>081 345 546 11</h5>
+                        <p>Guaidain Phone</p>
+                    </td>
+
+                    <td class="active">
+                        <p>Block Student</p>
+                   </td>
+
+                   <td class="edit">
+                    <p style="color: #18d26e !important;">Active</p>
+               </td>
+                   
+
+                 
+               </tr>
+
+               <tr>
+                <td class="people">
+                    <img src="/images/resultCheck2.jpg" alt="">
+                    <div class="people-de">
+                        <h5>Kenneth Arinze Ebenyi</h5>
+                        <p>24/GTC/0012</p>
+
+                    </div>
+                </td>
+
+                <td class="people-des">
+                    <h5>Primary Six</h5>
+                    <p>Present Level</p>
+                </td>
+
+                <td class="people-phone">
+                    <h5>081 345 546 11</h5>
+                    <p>Guaidain Phone</p>
+                </td>
+
+                <td class="active">
+                    <p>Block Student</p>
+               </td>
+
+               <td class="edit">
+                <p style="color: #18d26e !important;">Active</p>
+           </td>
+               
+
+             
+           </tr>
+
+           <tr>
+            <td class="people">
+                <img src="/images/resultCheck2.jpg" alt="">
+                <div class="people-de">
+                    <h5>Kenneth Arinze Ebenyi</h5>
+                    <p>24/GTC/0012</p>
+
+                </div>
+            </td>
+
+            <td class="people-des">
+                <h5>Primary Six</h5>
+                <p>Present Level</p>
+            </td>
+
+            <td class="people-phone">
+                <h5>081 345 546 11</h5>
+                <p>Guaidain Phone</p>
+            </td>
+
+            <td class="active">
+                <p>Block Student</p>
+           </td>
+
+           <td class="edit">
+            <p style="color: #18d26e !important;">Active</p>
+       </td>
+           
+
+         
+       </tr>
+
+       <tr>
+        <td class="people">
+            <img src="/images/resultCheck2.jpg" alt="">
+            <div class="people-de">
+                <h5>Kenneth Arinze Ebenyi</h5>
+                <p>24/GTC/0012</p>
+
+            </div>
+        </td>
+
+        <td class="people-des">
+            <h5>Primary Six</h5>
+            <p>Present Level</p>
+        </td>
+
+        <td class="people-phone">
+            <h5>081 345 546 11</h5>
+            <p>Guaidain Phone</p>
+        </td>
+
+        <td class="active">
+            <p>Block Student</p>
+       </td>
+
+       <td class="edit">
+        <p style="color: #18d26e !important;">Active</p>
+   </td>
+       
+
+   </tr>
+
+   <tr>
+    <td class="people">
+        <img src="/images/resultCheck2.jpg" alt="">
+        <div class="people-de">
+            <h5>Kenneth Arinze Ebenyi</h5>
+            <p>24/GTC/0012</p>
+
+        </div>
+    </td>
+
+    <td class="people-des">
+        <h5>Primary Six</h5>
+        <p>Present Level</p>
+    </td>
+
+    <td class="people-phone">
+        <h5>081 345 546 11</h5>
+        <p>Guaidain Phone</p>
+    </td>
+
+    <td class="active">
+        <p>Block Student</p>
+   </td>
+
+   <td class="edit">
+    <p style="color: #18d26e !important;">Active</p>
+</td>
+   
+
+</tr>
+                   
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    
+</body>
+</html>
